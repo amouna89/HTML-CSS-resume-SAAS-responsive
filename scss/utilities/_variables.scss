@@ -1,0 +1,42 @@
+/* ============================================= */
+/*              Variables                      */
+/* ============================================= */
+
+// Descriptive color variables
+
+
+$viking:#58E1C1;
+$azure-radiance:#0399FF;
+$malibu:#9fc5e8;
+$coral:#FD7856;
+$vivid-tangerine:#fd9f85;
+$sunglo:#e4757a;
+$white:#fff;
+$gallery:#EFEFEF;
+$california:#ff9904;
+$dark-grey:#999;
+
+// Functional color variables
+
+$body-background :$white;
+$headline-primary:$viking;
+$border-color:$malibu; 
+$border-color-hover:$vivid-tangerine;
+
+$background-color-secondary:$azure-radiance;
+$skills-li-background:$california;
+$nav-color:$gallery;
+
+//links
+$link-unactived:$dark-grey;
+$link-hover:$sunglo;
+
+//button color variables
+$button-background-default:$coral;
+
+
+//media-querie variables 
+
+$min-width-ipad:720px;
+$max-width-display:1200px;
+$header-min-height:470px;

@@ -1,0 +1,29 @@
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  border: 4px solid orange;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.3) rotate(30deg);
+}
+
+.resumeImg{
+  width:100%;
+  border:4px solid #9fc5e8; 
+  border-radius:10%;
+  
+  }
+  .resumeImg:hover{
+  
+    border:4px solid orange; 
+  }
+  

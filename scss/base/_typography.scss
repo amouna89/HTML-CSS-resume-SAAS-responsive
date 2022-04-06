@@ -1,0 +1,119 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background:$body-background;
+}
+  
+  /* ============================================= */
+  /*              Typography                       */
+  /* ============================================= */
+  header {
+    text-align: center;
+    background: url('images/winnipeg.jpg') no-repeat center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  header {
+    line-height: 1.5;
+  }
+
+  .card h2 {
+    text-align: center;
+    border: 2px solid $border-color;
+    border-radius:6px;
+    font-family: 'Crete Round', sans-serif;
+    padding: 15px;
+    margin-top: 20px;
+       
+   }
+  
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: $white;
+    border-bottom: 4px solid $border-color;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+  
+  .card:hover {
+    border-color: $border-color-hover;
+  }
+  .tag {
+    background-color: $background-color-secondary;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+  } 
+  .location {
+    background-color: #222;
+    color: $skills-li-background;
+  }
+
+  ul.skills {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: $skills-li-background;
+    color: $white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  .skills li:nth-child(odd) {
+    background-color: $background-color-secondary;
+  }
+  
+  footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+  }
+  
+  footer .copyright {
+    top: -8px;
+    font-size: .75em;
+    padding-top: 60px;
+    font-weight: bold;
+    height:200px;
+    background-color:$background-color-secondary;
+      
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  .experience {
+        
+    color: $background-color-secondary;
+    margin-bottom: 40px;
+    border-bottom: 2px solid $border-color;
+    padding-bottom: 15px;
+}
+
+
