@@ -359,20 +359,12 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: #222;
-  background: #fff;
+  background: #f7f5f0;
 }
 
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
-header {
-  text-align: center;
-  background: url("images/winnipeg.jpg") no-repeat center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
-
 header {
   line-height: 1.5;
 }
@@ -398,11 +390,11 @@ header {
 }
 
 .card:hover {
-  border-color: #fd9f85;
+  border-color: #ff9904;
 }
 
 .tag {
-  background-color: #0399FF;
+  background-color: #449cee;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -430,7 +422,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background-color: #0399FF;
+  background-color: #449cee;
 }
 
 footer {
@@ -445,7 +437,7 @@ footer .copyright {
   padding-top: 60px;
   font-weight: bold;
   height: 200px;
-  background-color: #0399FF;
+  background-color: #449cee;
 }
 
 footer ul {
@@ -459,7 +451,7 @@ footer ul li {
 }
 
 .experience {
-  color: #0399FF;
+  color: #449cee;
   margin-bottom: 40px;
   border-bottom: 2px solid #9fc5e8;
   padding-bottom: 15px;
@@ -475,11 +467,16 @@ footer ul li {
   margin-top: 15px;
   width: 200px;
   color: #fff;
-  background-color: #FD7856;
+  background-color: #ff9904;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: background-color 0.5s linear;
+}
+.button:hover {
+  background-color: #449cee;
+  border: 2px solid #f7f5f0;
 }
 
 /* ============================================= */
@@ -566,6 +563,14 @@ textarea {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+header {
+  text-align: center;
+  background: url("/images/winnipeg.jpg") no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -627,13 +632,25 @@ header .profile-image:hover {
   }
 }
 /*links*/
-.a {
+a {
   text-decoration: none;
-  color: #999;
+  color: #fff;
 }
 
-a:hover {
-  color: #e4757a;
+.ContactForm a {
+  text-decoration: none;
+  color: #449cee;
+}
+.ContactForm a:hover {
+  color: #ff9904;
+}
+
+.resume {
+  text-decoration: none;
+  color: #449cee;
+}
+.resume:hover {
+  color: #ff9904;
 }
 
 a.social {
@@ -648,15 +665,15 @@ a.social {
 }
 
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url("/images/twitter.svg");
 }
 
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url("/images/linkedin.svg");
 }
 
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url("/images/github.svg");
 }
 
 a.social:hover {

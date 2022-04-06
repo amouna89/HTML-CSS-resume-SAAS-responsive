@@ -6,7 +6,7 @@
 
 
 $viking:#58E1C1;
-$azure-radiance:#0399FF;
+$azure-radiance:#449cee;
 $malibu:#9fc5e8;
 $coral:#FD7856;
 $vivid-tangerine:#fd9f85;
@@ -14,25 +14,27 @@ $sunglo:#e4757a;
 $white:#fff;
 $gallery:#EFEFEF;
 $california:#ff9904;
-$dark-grey:#999;
+$beige:#f7f5f0;
+
 
 // Functional color variables
 
-$body-background :$white;
+$body-background :$beige;
 $headline-primary:$viking;
 $border-color:$malibu; 
-$border-color-hover:$vivid-tangerine;
+$border-color-hover:$california;
 
 $background-color-secondary:$azure-radiance;
 $skills-li-background:$california;
 $nav-color:$gallery;
 
 //links
-$link-unactived:$dark-grey;
-$link-hover:$sunglo;
+$link-unactived:$azure-radiance;
+$link-hover:$california;
 
 //button color variables
-$button-background-default:$coral;
+$button-background-default:$california;
+$button-background-hover:$azure-radiance;
 
 
 //media-querie variables 
