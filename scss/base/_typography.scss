@@ -71,10 +71,12 @@ body {
     color: $white;
     padding: 5px 10px;
     margin: 2px;
+    &:hover {transform:scaleZ(2);}
   }
   
   .skills li:nth-child(odd) {
     background-color: $background-color-secondary;
+    &:hover {transform:scaleZ(2);}
   }
   
   footer {

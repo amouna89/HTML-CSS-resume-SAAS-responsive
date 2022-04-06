@@ -23,13 +23,13 @@ header .profile-image:hover {
 }
 
 .resumeImg{
-  width:100%;
+  @include style-img;
   border:4px solid #9fc5e8; 
   border-radius:10%;
-  
-  }
-  .resumeImg:hover{
+  &:hover{
   
     border:4px solid orange; 
   }
+  }
+  
   
